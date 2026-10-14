@@ -1,0 +1,12 @@
+name: Mi primer workflow
+
+on:
+  push:
+
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Imprimir mensaje
+        run: echo "HOLA MUNDO (≡^∇^≡)"
